@@ -2,8 +2,7 @@
 Bookmarklet to add custom HTML data format In Alma Analytics Columns properties
 
 ## Installation
-Drag and drop to your browser bookmark bar this link:
-### [AnalyticsDataHTML](https://bediniupi.github.io/AnalyticsDataHTML/bookmarklet.html)
+Go to this url: ### [AnalyticsDataHTML](https://bediniupi.github.io/AnalyticsDataHTML/bookmarklet.html)
 
 ## How to use
 To add and apply an html format data view simply open the Column properties, go to Data format tab and click first on the bookmarklet, then to ok button.
