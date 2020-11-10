@@ -12,7 +12,7 @@ In Alma Analytics you only have two choices to override the default data format:
 ### Example to highlight the word "library" in bibliografic title:
 In "Bibliographic Details"."Title" column formula change it as:
   `replace("Bibliographic Details"."Title", 'library", '<b>library</b>')`
-### Apply a color: use tag <span> to avoid line break:
+### Apply a color: use tag &lt;span&gt; to avoid line break:
   `replace("Bibliographic Details"."Title", 'library", '<span style="color:red;">library</span>')`
 ### Avoid string between <> disappearing; the html format couse every string between <> treated as xml/html tags: replace every occurrence of the column name with this formula:
 `replace("Bibliographic Details"."Title","<", "&lt;")`
