@@ -18,4 +18,4 @@ In "Bibliographic Details"."Title" column formula change it as:
 The html format couse every string between <> treated as xml/html tags: replace every occurrence of the column name with this formula:
 `replace("Bibliographic Details"."Title","<", "&lt;")`
 #### Nested formula (bold library and no tag strings disappearing):
-`replace(replace("Bibliographic Details"."Title","<", "&lt;"), 'library", '<b>library</b>')`
+`replace(replace("Bibliographic Details"."Title","<", "&lt;"), 'library', '<b>library</b>')`
